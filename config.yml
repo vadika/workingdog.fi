@@ -1,0 +1,47 @@
+
+# _config.yml
+title: "Vadim Likholetov - SAR Officer & Dog Handler"
+description: "Professional SAR Officer with 15+ years experience in Search and Rescue operations and dog handling"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Site settings
+author:
+  name: "Vadim Likholetov"
+  email: "your-email@example.com"
+  phone: "+358 50 3052324"
+  location: "Tampere, Finland"
+  dob: "12.05.1977"
+
+# SAR Statistics
+stats:
+  experience_years: 15
+  sar_calls: "2000+"
+  sar_dogs: 4
+
+# Collections
+collections:
+  dogs:
+    output: false
+  deployments:
+    output: false
+  certifications:
+    output: false
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
