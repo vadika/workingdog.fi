@@ -1,0 +1,17 @@
+_data/deployments.yml
+- title: "Turkey Earthquake Response (February 2023)"
+  description: "Deployed to Adıyaman with international rescue forces. Successfully located 6 deceased victims under rubble using SAR dogs. Worked alongside global rescue teams in challenging conditions."
+
+- title: "SAR Team Otklik - Founder & Leader"
+  description: "Established and developed full-scale volunteer USAR team in St. Petersburg, operating 24/7. Team specializes in wilderness lost person search, SAR dog training, and USAR operations. Successfully gained IRO membership after 3-year advocacy process."
+  highlight: '<strong>Website:</strong> <a href="https://otklik.team" target="_blank">otklik.team</a>'
+
+- title: "Structure Collapse Operations"
+  description: "Deployed at all major structure collapses in St. Petersburg area, including fireworks plant explosion (2017), major structure collapse (2019), and demolition building sudden collapse (2022)."
+
+- title: "Training & Development"
+  description: "Developed and delivered wilderness search and recovery courses for European SAR teams (Latvia, Estonia). Created structure collapse search and rescue training programs. Certified LPB (Lost Person Behavior) trainer and completed SWDI (Scandinavian Working Dog Institute) instructor course."
+
+- title: "IT Solutions for SAR"
+  description: "Developed comprehensive IT solutions to support SAR processes including SAR calls database, statistics analysis, and operational management systems."
+

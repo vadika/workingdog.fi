@@ -1,0 +1,12 @@
+<section class="section full-width">
+    <h2>Operational Videos</h2>
+    <div class="video-links">
+        {% for video in site.data.videos %}
+        <a href="{{ video.url }}" target="_blank" class="video-link">
+            <h4>{{ video.icon }} {{ video.title }}</h4>
+            <p>{{ video.description }}</p>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+

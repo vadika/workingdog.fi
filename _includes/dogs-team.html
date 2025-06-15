@@ -1,0 +1,14 @@
+<section class="section full-width">
+    <h2>SAR Dogs Team</h2>
+    <div class="dogs-grid">
+        {% for dog in site.data.dogs %}
+        <div class="dog-card">
+            <h4>{{ dog.name }} ({{ dog.breed }})</h4>
+            <p><strong>Age:</strong> {{ dog.age }}</p>
+            <p><strong>Status:</strong> {{ dog.status }}</p>
+            <p><strong>Achievements:</strong> {{ dog.achievements }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
