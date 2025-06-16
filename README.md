@@ -1,6 +1,20 @@
 
+# Vadim Likholetov - SAR Officer & Dog Handler Portfolio
 
 A Jekyll-powered website showcasing the professional experience and qualifications of SAR Officer and Dog Handler Vadim Likholetov.
+
+## 🚨 Important: Repository Setup for GitHub Pages
+
+To deploy this site to `vadika.github.io`, you need to:
+
+1. **Rename this repository** to `vadika.github.io` in GitHub settings
+2. Ensure GitHub Pages is enabled in repository settings
+3. The site will automatically deploy to https://vadika.github.io
+
+### Current Status
+- Repository is currently named `workingdog.fi`
+- Needs to be renamed to `vadika.github.io` for proper GitHub Pages deployment
+- Jekyll configuration has been updated to use the correct URL
 
 ## Features
 
