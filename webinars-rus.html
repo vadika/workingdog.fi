@@ -5,16 +5,14 @@ description: "Профессиональные вебинары по метод�
 ---
 
 <div class="container">
-    <div class="main-content">
-        {% assign webinar_data = site.data.webinars-rus %}
-        {% include webinars.html 
-           webinar_data=webinar_data 
-           available_webinars_text="Доступные вебинары"
-           duration_text="Продолжительность"
-           level_text="Уровень"
-           register_title="Регистрация на вебинары"
-        %}
-    </div>
+    {% assign webinar_data = site.data.webinars-rus %}
+    {% include webinars.html 
+       webinar_data=webinar_data 
+       available_webinars_text="Доступные вебинары"
+       duration_text="Продолжительность"
+       level_text="Уровень"
+       register_title="Регистрация на вебинары"
+    %}
 </div>
 
 {% include webinar-styles.html %}
