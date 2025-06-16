@@ -16,9 +16,9 @@ plugins:
 author:
   name: "Vadim Likholetov"
   email: "your-email@example.com"
-  phone: "+358 50 3052324"
+  phone: "+358 50 3052224"
   location: "Tampere, Finland"
-  dob: "12.05.1977"
+  email: "vadikas@workingdog.fi"
 
 # SAR Statistics
 stats:
