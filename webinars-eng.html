@@ -1,0 +1,20 @@
+---
+layout: default
+title: "SAR Dog Training Webinars"
+description: "Professional webinars on Search and Rescue dog training techniques"
+---
+
+<div class="container">
+    <div class="main-content">
+        {% assign webinar_data = site.data.webinars-eng %}
+        {% include webinars.html 
+           webinar_data=webinar_data 
+           available_webinars_text="Available Webinars"
+           duration_text="Duration"
+           level_text="Level"
+           register_title="Register for Webinars"
+        %}
+    </div>
+</div>
+
+{% include webinar-styles.html %}

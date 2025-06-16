@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Вебинары по подготовке поисковых собак"
+description: "Профессиональные вебинары по методикам подготовки поисково-спасательных собак"
+---
+
+<div class="container">
+    <div class="main-content">
+        {% assign webinar_data = site.data.webinars-rus %}
+        {% include webinars.html 
+           webinar_data=webinar_data 
+           available_webinars_text="Доступные вебинары"
+           duration_text="Продолжительность"
+           level_text="Уровень"
+           register_title="Регистрация на вебинары"
+        %}
+    </div>
+</div>
+
+{% include webinar-styles.html %}

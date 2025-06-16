@@ -1,0 +1,36 @@
+<section class="section">
+    <h1>{{ webinar_data.title }}</h1>
+    <p class="lead">{{ webinar_data.description }}</p>
+</section>
+
+<section class="section">
+    <h2>{{ available_webinars_text | default: "Available Webinars" }}</h2>
+    
+    {% for webinar in webinar_data.webinars %}
+    <div class="webinar-item">
+        <h3>{{ webinar.title }}</h3>
+        <p>{{ webinar.description }}</p>
+        <ul>
+            {% for topic in webinar.topics %}
+            <li>{{ topic }}</li>
+            {% endfor %}
+        </ul>
+        <p><strong>{{ duration_text | default: "Duration" }}:</strong> {{ webinar.duration }} | <strong>{{ level_text | default: "Level" }}:</strong> {{ webinar.level }}</p>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="section">
+    <div class="highlight">
+        <h2>{{ register_title | default: "Register for Webinars" }}</h2>
+        <p>{{ webinar_data.registration_prompt }}</p>
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="{{ webinar_data.registration_url }}" 
+               class="button" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                {{ webinar_data.registration_text }}
+            </a>
+        </div>
+    </div>
+</section>
