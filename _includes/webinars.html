@@ -2,6 +2,15 @@
     <div class="webinar-header">
         <h1>{{ webinar_data.title }}</h1>
         <p class="lead">{{ webinar_data.description }}</p>
+        <p class="registration-prompt">{{ webinar_data.registration_prompt }}</p>
+        <div class="registration-button">
+            <a href="{{ webinar_data.registration_url }}" 
+               class="button" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                {{ webinar_data.registration_text }}
+            </a>
+        </div>
     </div>
     
     <h2 class="webinars-title">{{ available_webinars_text | default: "Available Webinars" }}</h2>
@@ -19,20 +28,5 @@
             <p class="webinar-meta"><strong>{{ duration_text | default: "Duration" }}:</strong> {{ webinar.duration }} | <strong>{{ level_text | default: "Level" }}:</strong> {{ webinar.level }}</p>
         </div>
         {% endfor %}
-    </div>
-</section>
-
-<section class="section">
-    <div class="highlight">
-        <h2>{{ register_title | default: "Register for Webinars" }}</h2>
-        <p>{{ webinar_data.registration_prompt }}</p>
-        <div style="text-align: center; margin-top: 30px;">
-            <a href="{{ webinar_data.registration_url }}" 
-               class="button" 
-               target="_blank" 
-               rel="noopener noreferrer">
-                {{ webinar_data.registration_text }}
-            </a>
-        </div>
     </div>
 </section>
