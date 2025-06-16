@@ -1,10 +1,10 @@
-<section class="section">
+<section class="section webinar-header">
     <h1>{{ webinar_data.title }}</h1>
     <p class="lead">{{ webinar_data.description }}</p>
 </section>
 
 <section class="section">
-    <h2>{{ available_webinars_text | default: "Available Webinars" }}</h2>
+    <h2 class="webinars-title">{{ available_webinars_text | default: "Available Webinars" }}</h2>
     
     <div class="webinars-grid">
         {% for webinar in webinar_data.webinars %}
