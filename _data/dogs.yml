@@ -1,19 +1,19 @@
 
 - name: "Vitamin"
   breed: "Labrador"
-  age: "14.5 years"
+  age: "2008-2023"
   status: "SAR Certified (Retired)"
   achievements: "2 victim finds (deceased)"
 
 - name: "Vader"
   breed: "Malinois"
-  age: "10.5 years"
+  age: "12 years"
   status: "Active SAR"
   achievements: "2 live victim finds (dementia cases)"
 
 - name: "Red"
   breed: "Malinois"
-  age: "3.5 years"
+  age: "5 years"
   status: "SAR & HRD Certified"
   achievements: "Passed IRO National MRT (Rubble) test 2023"
 
