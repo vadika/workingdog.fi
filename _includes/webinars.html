@@ -1,22 +1,22 @@
 <section class="section">
     <div class="webinar-header">
-        <h1>{{ webinar_data.title }}</h1>
-        <p class="lead">{{ webinar_data.description }}</p>
-        <p class="registration-prompt">{{ webinar_data.registration_prompt }}</p>
+        <h1>{{ include.webinar_data.title }}</h1>
+        <p class="lead">{{ include.webinar_data.description }}</p>
+        <p class="registration-prompt">{{ include.webinar_data.registration_prompt }}</p>
         <div class="registration-button">
-            <a href="{{ webinar_data.registration_url }}" 
+            <a href="{{ include.webinar_data.registration_url }}" 
                class="button" 
                target="_blank" 
                rel="noopener noreferrer">
-                {{ webinar_data.registration_text }}
+                {{ include.webinar_data.registration_text }}
             </a>
         </div>
     </div>
     
-    <h2 class="webinars-title">{{ available_webinars_text | default: "Available Webinars" }}</h2>
+    <h2 class="webinars-title">{{ include.available_webinars_text | default: "Available Webinars" }}</h2>
     
     <div class="webinars-grid">
-        {% for webinar in webinar_data.webinars %}
+        {% for webinar in include.webinar_data.webinars %}
         <div class="webinar-item">
             <h3>{{ webinar.title }}</h3>
             <p>{{ webinar.description }}</p>
@@ -25,7 +25,7 @@
                 <li>{{ topic }}</li>
                 {% endfor %}
             </ul>
-            <p class="webinar-meta"><strong>{{ duration_text | default: "Duration" }}:</strong> {{ webinar.duration }} | <strong>{{ level_text | default: "Level" }}:</strong> {{ webinar.level }}</p>
+            <p class="webinar-meta"><strong>{{ include.duration_text | default: "Duration" }}:</strong> {{ webinar.duration }} | <strong>{{ include.level_text | default: "Level" }}:</strong> {{ webinar.level }}</p>
         </div>
         {% endfor %}
     </div>
