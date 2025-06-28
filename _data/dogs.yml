@@ -4,22 +4,26 @@
   age: "2008-2023"
   status: "SAR Certified (Retired)"
   achievements: "2 victim finds (deceased)"
+  photo: "/assets/images/dogs/vitamin.png"
 
 - name: "Vader"
   breed: "Malinois"
   age: "12 years"
   status: "SAR Certified (Retired)"
   achievements: "2 live victim finds (dementia cases)"
+  photo: "/assets/images/dogs/vader.png"
 
 - name: "Red"
   breed: "Malinois"
   age: "5 years"
   status: "SAR & HRD Certified"
   achievements: "Passed IRO National MRT (Rubble) test 2023, 6 deceased persons found in Turkey deployment"
+  photo: "/assets/images/dogs/red.png"
 
 - name: "Jeeves"
   breed: "Labrador"
   age: "1.5 years"
   status: "In Training"
   achievements: "Early SAR development phase"
+  photo: "/assets/images/dogs/jeeves.png"
 
