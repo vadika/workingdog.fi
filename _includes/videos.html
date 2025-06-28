@@ -3,6 +3,14 @@
     <div class="video-links">
         {% for video in site.data.videos %}
         <a href="{{ video.url }}" target="_blank" class="video-link">
+            {% if video.preview %}
+            <div class="video-preview">
+                <img src="{{ video.preview }}" alt="{{ video.title }}">
+                <div class="play-overlay">
+                    <span class="play-icon">▶</span>
+                </div>
+            </div>
+            {% endif %}
             <h4>{{ video.icon }} {{ video.title }}</h4>
             <p>{{ video.description }}</p>
         </a>
