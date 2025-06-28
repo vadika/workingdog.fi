@@ -6,6 +6,7 @@ registration_prompt: "Ready to enhance your SAR dog training skills? Register no
 
 webinars:
   - title: "False Indications: Understanding and Prevention"
+    image: "/assets/images/webinars/false-indications.jpg"
     description: "Learn to identify, understand, and prevent false indications in SAR dogs. This comprehensive webinar covers:"
     topics:
       - "Common causes of false indications in search scenarios"
@@ -17,6 +18,7 @@ webinars:
     level: "Intermediate to Advanced"
 
   - title: "Reward Schedules: Optimizing Training Effectiveness"
+    image: "/assets/images/webinars/reward-schedules.jpg"
     description: "Master the science of reward schedules to maximize your dog's learning and performance. Topics include:"
     topics:
       - "Understanding fixed vs. variable reinforcement schedules"
@@ -28,6 +30,7 @@ webinars:
     level: "All levels"
 
   - title: "Mastering Barking Indication"
+    image: "/assets/images/webinars/barking-indication.jpg"
     description: "Develop reliable and sustained barking indication in your SAR dog. This webinar explores:"
     topics:
       - "Building foundation behaviors for bark indication"

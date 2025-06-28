@@ -18,6 +18,9 @@
     <div class="webinars-grid">
         {% for webinar in include.webinar_data.webinars %}
         <div class="webinar-item">
+            {% if webinar.image %}
+            <img src="{{ webinar.image }}" alt="{{ webinar.title }}" class="webinar-image">
+            {% endif %}
             <h3>{{ webinar.title }}</h3>
             <p>{{ webinar.description }}</p>
             <ul>
