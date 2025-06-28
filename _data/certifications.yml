@@ -4,8 +4,12 @@
 - name: "Rope Access Certified"
 - name: "First Aid Training"
 - name: "INSARAG Protocols"
+  logo: "/assets/images/certifications/insarag.png"
 - name: "LPB (Lost Person Behaviour) Certified Trainer"
+  logo: "/assets/images/certifications/lpb.png"
 - name: "IRO Member"
+  logo: "/assets/images/certifications/iro.png"
 - name: "USAR Specialist"
 - name: "SWDI (Scandinavian Working Dog Institute) Instructor"
+  logo: "/assets/images/certifications/swdi.png"
 
