@@ -15,10 +15,10 @@ plugins:
 # Site settings
 author:
   name: "Vadim Likholetov"
-  email: "your-email@example.com"
+  email: "vadikas@workingdog.fi"
   phone: "+358 50 3052224"
   location: "Tampere, Finland"
-  email: "vadikas@workingdog.fi"
+  portrait: "/assets/images/portrait.png"
 
 # SAR Statistics
 stats:

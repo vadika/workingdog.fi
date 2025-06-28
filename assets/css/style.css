@@ -25,9 +25,39 @@ body {
     padding: 40px;
     margin-bottom: 30px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.portrait-container {
+    flex-shrink: 0;
+}
+
+.portrait-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 4px solid rgba(255,255,255,0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portrait-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
 }
 
 .header::before {
@@ -414,6 +444,17 @@ body {
     
     .header h1 {
         font-size: 2.5em;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .portrait-image {
+        width: 150px;
+        height: 150px;
     }
     
     .contact-info {
