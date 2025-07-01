@@ -17,8 +17,14 @@
   preview: "/assets/images/videos/building-collapse-preview.png"
 
 - title: "SAR Dog in Action"
-  description: "Live victim find demonstration"
+  description: "Real live victim find footage"
   url: "https://youtu.be/nnCBXbYk5bE"
   icon: "🐕"
   preview: "/assets/images/videos/sar-dog-action-preview.png"
+
+- title: "SAR Dog Action During Turkey Deployment (2023)"
+  description: "Real live victim find footage"
+  url: "https://share.icloud.com/photos/022-8J-DunybVENqmVxBgSnZw"
+  icon: "🏢"
+  preview: "/assets/images/videos/turkey-deployment-preview.jpg"
 
